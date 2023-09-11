@@ -1,0 +1,139 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+header {
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header {
+    font-weight: 600;
+    line-height: normal;
+    font-size: 24px;
+    color: #989D9C;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 24px;
+}
+
+#button-login {
+    border-radius: 20.5px;
+    background: #665AE1;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    margin-bottom: 150px;
+
+}
+
+h1 {
+    font-size: 100px;
+    color: #515151;
+    color: #515151;
+
+}
+
+h2 {
+    font-weight: 500;
+    line-height: normal;
+    font-size: 58px;
+    color: #515151;
+
+}
+
+p {
+    color: #515151;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+#button-explore {
+    border-radius: 30px;
+    background: #ADFF00;
+    width: 239px;
+    height: 64px;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px #000);
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    header {
+        display: none;
+    }
+
+    .logo-image {
+        display: block;
+        margin: 0;
+        width: 354px;
+        height: 250.236px;
+        flex-shrink: 0;
+        padding: 0;
+        margin: 149px 0px 0px 14px;
+    }
+
+    p {
+        display: none;
+    }
+
+    section {
+        margin: 0
+    }
+
+    h1 {
+        display: block;
+        font-size: 50px;
+        width: 263px;
+        height: 52px;
+        margin: 47px 64px 0 64px;
+        text-transform: uppercase;
+        line-height: normal;
+    }
+
+    h2 {
+        line-height: normal;
+        font-size: 30px;
+        margin: 5px 79px 0 79px;
+    }
+
+    #button-explore {
+        display: block;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+
+
+
+}
